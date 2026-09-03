@@ -1,0 +1,6 @@
+LOCUS       GUS_L0_FWD                33 bp ds-DNA     linear       03-SEP-2026
+DEFINITION  .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 CATTCGGGTC TCGTGTTACG TCCTGTAGAA ACC
+//
