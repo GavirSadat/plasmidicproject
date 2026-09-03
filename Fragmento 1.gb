@@ -1,0 +1,19 @@
+LOCUS       Fragmento_1              227 bp ds-DNA     linear       02-SEP-2026
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..40
+                     /label="MoClo-F"
+                     /note="sequence: GCGCGGTCTCaGGAGTGGAATTTGTAATGAACTTGGTTAT"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     primer          complement(207..227)
+                     /label="Mut1-R"
+                     /note="sequence: GGACCTCGAAATGCGAGAATC"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+ORIGIN
+        1 GCGCGGTCTC aGGAGTGGAA TTTGTAATGA ACTTGGTTAT GACTTATGAC ATACTGATAC
+       61 TCGTAACATT CATAGATACT GACATAAATT CATCAACTAC AATAGATGAG ATGGCTAGTC
+      121 TTAGTAGAAC AGTAGTCTCT CTTTCCGGCT TGCTCCATTG GCTGATGACG ATGAACAACT
+      181 CGGACTCATT GATTCCAGCA TTATCTGATT CTCGCATTTC GAGGTCC
+//
