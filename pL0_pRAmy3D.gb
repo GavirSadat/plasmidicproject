@@ -1,0 +1,112 @@
+LOCUS       pL0_pRAmy3D             1428 bp ds-DNA     circular     04-SEP-2026
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     source          1..602
+                     /label="source"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     protein_bind    68..89
+                     /label="CAP binding site"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+                     /note="CAP binding activates transcription in the presence of cAMP."
+                     /bound_moiety="E. coli catabolite activator protein"
+     promoter        104..109
+                     /label="lac promoter"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+                     /note="promoter for the E. coli lac operon"
+     promoter        110..127
+                     /label="lac promoter"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+                     /note="promoter for the E. coli lac operon"
+     promoter        128..134
+                     /label="lac promoter"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+                     /note="promoter for the E. coli lac operon"
+     protein_bind    142..158
+                     /label="lac operator"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+                     /note="The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-beta-D-thiogalactopyranoside (IPTG)."
+                     /bound_moiety="lac repressor encoded by lacI"
+     primer_bind     147..169
+                     /label="M13/pUC Reverse"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+                     /note="In lacZ gene"
+     primer_bind     166..182
+                     /label="M13 rev"
+                     /ApEinfo_revcolor="#d6b295"
+                     /ApEinfo_fwdcolor="#d6b295"
+                     /note="common sequencing primer, one of multiple similar variants"
+     primer_bind     166..182
+                     /label="M13 Reverse"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+                     /note="In lacZ gene. Also called M13-rev"
+     misc_feature    195..251
+                     /label="MCS"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /note="pUC18/19 multiple cloning site"
+     primer_bind     complement(252..268)
+                     /label="M13 fwd"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+                     /note="common sequencing primer, one of multiple similar variants"
+     primer_bind     complement(252..269)
+                     /label="M13 Forward"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+                     /note="In lacZ gene. Also called M13-F20 or M13 (-21) Forward"
+     primer_bind     complement(261..283)
+                     /label="M13/pUC Forward"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /note="In lacZ gene"
+     primer_bind     complement(477..496)
+                     /label="pRS-marker"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /note="pRS vectors, use to sequence yeast selectable marker"
+     primer          603..620
+                     /label="Primer FWD"
+                     /note="sequence: TCCACTGGTCTCGgcttGCGCGAAGACaaTGCCGG"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     primer          complement(1411..1428)
+                     /label="Primer REV"
+                     /note="sequence: TCCACTGGTCTCGcattGCGCGAAGACaaTTGCGG"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+ORIGIN
+        1 aatgttgtct tcgcagctgg cacgacaggt ttcccgactg gaaagcgggc agtgagcgca
+       61 acgcaattaa tgtgagttag ctcactcatt aggcacccca ggctttacac tttatgcttc
+      121 cggctcgtat gttgtgtgga attgtgagcg gataacaatt tcacacagga aacagctatg
+      181 accatgatta cgccaagctt gcatgcctgc aggtcgactc tagaggatcc ccgggtaccg
+      241 agctcgaatt cactggccgt cgttttacaa cgtcgtgact gggaaaaccc tggcgttacc
+      301 caacttaatc gccttgcagc acatccccct ttcgccagct ggcgtaatag cgaagaggcc
+      361 cgcaccgatc gcccttccca acagttgcgc agcctgaatg gcgaatggcg cctgatgcgg
+      421 tattttctcc ttacgcatct gtgcggtatt tcacaccgca tatggtgcac tctcagtaca
+      481 atctgctctg atgccgcata gttaagccag ccccgacacc cgccaacacc cgctgacgcg
+      541 ccctgacggg cttgtctgct cccggcatcc gcttacagac aagctgtgac gaagacaagc
+      601 ttGCGCGAAG ACaaTGCCGG TCTCaGGAGT GGAATTTGTA ATGAACTTGG TTATGACTTA
+      661 TGACATACTG ATACTCGTAA CATTCATAGA TACTGACATA AATTCATCAA CTACAATAGA
+      721 TGAGATGGCT AGTCTTAGTA GAACAGTAGT CTCTCTTTCC GGCTTGCTCC ATTGGCTGAT
+      781 GACGATGAAC AACTCGGACT CATTGATTCC AGCATTATCT GATTCTCGCA TTTCGAGGTC
+      841 CGGATTAGTT CTCACCGAGA TGTGGATAGA ATTGCCATGT CAGGAATTGA AGGAGGACGA
+      901 GCCATATGTG CATATACATG ACGGGAGATC AAGCGGCCAG TCAAGAGGCT AACTGCAACC
+      961 CTATTATATA CGATCAGCCT GCTAGAACAC GTAGCACTGT CTTTTTTGTC TGAACTCTGA
+     1021 AGATGAAAGT TCAGAGAAAT GCTCGCCTTA TCCAAGCCGG CGATGGATGG AGGAGGAGGT
+     1081 AGCCGGCGCC CGCCTCAGGC AGTCGTCGCG ATCACGCCGC CGCATCCCGT CGCCTTGGAG
+     1141 ATCGGGCCCC GACGCGGCCG ACGCGGCGCC TACGTGGCCA TGCTTTATTG CCTTATCCAT
+     1201 ATCCACGCCA TTTATTGTGG TCGTCTCTCC TGATCATTCT CATTCCCCTG CCACGGTGAC
+     1261 CGTGCCCCCG GTGTTCTATA TATGCCCCCC GACGTCGAGG TCATTCGCCA CGAACACATC
+     1321 GATCATCCAT CATCTACAAG AGATCGATCA GTAGTGGTTA GCAGCAACTC ACTATCGAAC
+     1381 ACGGTTTCAG CTTACACAGA TAATGtGAGA CCGCAAttGT CTTCGCGC
+//
