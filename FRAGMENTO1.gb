@@ -1,0 +1,19 @@
+LOCUS       FRAGMENTO1               239 bp ds-DNA     linear       04-SEP-2026
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     primer          1..52
+                     /label="MoClo-F"
+                     /note="sequence: GCGCGAAGACaaTGCCGGTCTCaGGAGTGGAATTTGTAATGAACTTGGTTAT"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     primer          complement(219..239)
+                     /label="Mut1-R"
+                     /note="sequence: GGACCTCGAAATGCGAGAATC"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+ORIGIN
+        1 GCGCGAAGAC aaTGCCGGTC TCaGGAGTGG AATTTGTAAT GAACTTGGTT ATGACTTATG
+       61 ACATACTGAT ACTCGTAACA TTCATAGATA CTGACATAAA TTCATCAACT ACAATAGATG
+      121 AGATGGCTAG TCTTAGTAGA ACAGTAGTCT CTCTTTCCGG CTTGCTCCAT TGGCTGATGA
+      181 CGATGAACAA CTCGGACTCA TTGATTCCAG CATTATCTGA TTCTCGCATT TCGAGGTCC
+//
