@@ -1,0 +1,6 @@
+LOCUS       tNOS_L0_REV               40 bp ds-DNA     linear       04-SEP-2026
+DEFINITION  .
+FEATURES             Location/Qualifiers
+ORIGIN
+        1 CACGATGGTC TCGggagAGC GATCTAGTAA CATAGATGAC
+//
